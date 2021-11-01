@@ -76,6 +76,7 @@
   
   body {
     line-height: 1.85;
+    background-color: rgb(255, 223, 181);
   }
   
   p,
@@ -140,8 +141,7 @@
   iframe,
   video,
   svg,
-  select,
-  textarea {
+  select {
     max-width: 100%;
   }
   
@@ -230,4 +230,9 @@ nav {
 
 .menuitem {
     display: inline-block;
+}
+
+textarea {
+  width: 48rem;
+  height: 16rem;
 }
